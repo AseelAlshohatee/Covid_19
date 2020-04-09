@@ -28,16 +28,6 @@ h2 {
     border-radius: 10px;
 }
 
-.country-holder {
-    background-color: rgb(18, 85, 116);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
-        0 6px 10px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    border-radius: 10px;
-    height: 200px;
-    margin-right: 5px;
-
-}
 
 .grid-container {
     display: grid;
@@ -50,8 +40,8 @@ h2 {
     border-radius: 5px;
     margin: 1px;
     padding: 25px;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 15px;
+    font-weight: 100;
     text-align: center;
     color: white;
     background-color: black;
@@ -61,6 +51,16 @@ h2 {
 
 }
 
+.country-holder {
+    background-color: rgb(18, 85, 116);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px;
+    height: 200px;
+    /* margin: 5px; */
+    margin-right: 100px;
+}
 
 .recover {
     background-color: #006600;
